@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+    background: rgb(72, 73, 116);
+    color: white;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(72, 153, 185);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
