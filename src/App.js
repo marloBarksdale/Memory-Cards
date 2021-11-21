@@ -62,10 +62,10 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <Header level={level} score={score} bestScore={bestScore} />
       <Cards characters={characters} changeScore={changeScore} />
-    </div>
+    </>
   );
 }
 
