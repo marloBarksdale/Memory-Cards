@@ -1,5 +1,5 @@
-# CV Application
+# Memory Cards
 
-A React app which allows users to create a job profile.
+A Memory Card game built using React
 
 [Live Demo](https://marloBarksdale.github.io/Memory-Cards/) :point_left:
