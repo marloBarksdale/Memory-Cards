@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Header.css';
 
-const Header = () => {
+const Header = ({ score, level, bestScore }) => {
   return (
     <div className='container'>
       <div className='header'>
@@ -9,9 +9,9 @@ const Header = () => {
           <h1>Memory Game</h1>
         </div>
         <div className='game-info'>
-          <div className='score'>Score: </div>
-          <div className='highScore'>High Score: </div>
-          <div className='gameLevel'>Level :</div>
+          <div className='score'>Score: {score}</div>
+          <div className='highScore'>High Score: {bestScore}</div>
+          <div className='gameLevel'>Level: {level}</div>
         </div>
       </div>
     </div>
